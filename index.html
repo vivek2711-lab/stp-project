@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>H.C. Verma – Concepts of Physics (JEE)</title>
+<style>
+:root{--bg:#f7f8fc;--text:#1f2937;--muted:#6b7280;--card:#ffffff;--primary:#2c3e50;--accent:#e67e22;--link:#2563eb;--shadow:0 8px 24px rgba(0,0,0,.08)}
+body.dark{--bg:#0f172a;--text:#e5e7eb;--muted:#9ca3af;--card:#111827;--primary:#3b82f6;--accent:#f59e0b;--link:#93c5fd}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 system-ui,Segoe UI,Arial}
+a{color:var(--link);text-decoration:none}a:hover{text-decoration:underline}
+header{position:sticky;top:0;z-index:10;background:var(--primary);color:#fff;box-shadow:var(--shadow)}
+.nav{max-width:1100px;margin:auto;display:flex;align-items:center;justify-content:space-between;padding:12px 18px}
+.nav h1{margin:0;font-size:18px;letter-spacing:.3px}
+.nav ul{display:flex;gap:14px;margin:0;padding:0;list-style:none}
+.nav a{color:#fff;opacity:.95}.nav a:hover{opacity:1}
+.toggle{border:0;background:var(--accent);color:#fff;padding:8px 12px;border-radius:8px;cursor:pointer}
+.wrap{max-width:1100px;margin:28px auto;padding:0 16px}
+.hero{display:grid;grid-template-columns:220px 1fr;gap:22px;background:var(--card);border-radius:14px;box-shadow:var(--shadow);padding:18px}
+.cover{width:220px;height:300px;border-radius:10px;overflow:hidden;box-shadow:var(--shadow)}
+.cover img{width:100%;height:100%;object-fit:cover}
+.buy h2{margin:.2rem 0 .4rem;font-size:22px}
+.pill{display:inline-block;background:rgba(230,126,34,.15);color:var(--accent);padding:4px 9px;border-radius:999px;font-weight:700;margin-right:8px}
+.btn{display:inline-block;background:#ff9900;color:#111;padding:10px 14px;border-radius:8px;font-weight:700;margin-top:8px}
+.grid{display:grid;gap:14px;margin-top:18px}
+details{background:var(--card);border-radius:12px;box-shadow:var(--shadow);padding:10px}
+summary{cursor:pointer;font-weight:700;padding:6px 2px;outline:none}
+details p,details ul{margin:8px 0 6px;color:var(--text)}
+.links a{display:inline-block;margin:6px 10px 6px 0}
+.books{margin-top:26px}
+.books h3{margin:0 0 12px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px}
+.card{background:var(--card);border-radius:12px;box-shadow:var(--shadow);padding:14px;display:grid;grid-template-rows:auto 1fr auto;gap:8px}
+.card img{width:100%;height:200px;object-fit:cover;border-radius:8px}
+.card h4{margin:.2rem 0 .3rem}
+.card .mini{color:var(--muted);font-size:13px}
+.card a{display:inline-block;background:#ff9900;color:#111;padding:7px 10px;border-radius:8px;font-weight:700;margin-top:6px}
+.section{margin-top:28px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.foot{margin-top:32px;background:var(--primary);color:#fff;border-radius:14px}
+.foot .cols{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:16px;padding:18px}
+.foot h4{margin:.2rem 0 .6rem}
+.foot a{color:#fff;text-decoration:none;opacity:.95}.foot a:hover{opacity:1;text-decoration:underline}
+.copy{border-top:1px solid #ffffff26;text-align:center;padding:10px 12px;font-size:13px}
+@media(max-width:760px){.hero{grid-template-columns:1fr}.cover{width:100%;height:300px}.foot .cols{grid-template-columns:1fr 1fr}.two{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+  <div class="nav">
+    <h1>H.C. Verma • Concepts of Physics</h1>
+    <ul>
+      <li><a href="#overview">Overview</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#resources">Resources</a></li>
+      <li><a href="#syllabus">Syllabus</a></li>
+      <li><a href="#faqs">FAQs</a></li>
+      <li><a href="#books">Other Books</a></li>
+    </ul>
+    <button class="toggle" id="modeBtn">🌙 Dark</button>
+  </div>
+</header>
+
+<main class="wrap">
+  <!-- HERO -->
+  <section class="hero">
+    <div class="cover"><img src="hc_verma.jpg" alt="HC Verma Physics"></div>
+    <div class="buy">
+      <h2>Concepts of Physics (Vol 1 & 2)</h2>
+      <div class="pill">Author: H.C. Verma</div><div class="pill">Level: JEE / Class XI–XII</div>
+      <p>Widely recognized as the "Bible of Physics" for Indian students, HCV lays a strong foundation for conceptual understanding along with carefully crafted problem sets.</p>
+      <p><strong>Price:</strong> ~₹850 (both volumes)</p>
+      <a class="btn" href="https://www.amazon.in/dp/8177091875" target="_blank">Buy Vol 1</a>
+      <a class="btn" href="https://www.amazon.in/dp/8177092324" target="_blank">Buy Vol 2</a>
+    </div>
+  </section>
+
+  <!-- Overview, Features, Resources -->
+  <section class="grid">
+    <details id="overview" open>
+      <summary>📘 Book Overview</summary>
+      <p>“Concepts of Physics” is not just a textbook, but a mentor in written form. Each chapter begins with simple explanations, followed by illustrative examples that gradually increase in complexity.</p>
+      <p>The two volumes cover the entire JEE syllabus for Physics: Vol 1 for Class XI fundamentals like Mechanics and Waves; Vol 2 for Class XII topics such as Electricity, Magnetism, Optics, and Modern Physics.</p>
+      <p>Thousands of aspirants owe their success in JEE to this book because it focuses on clarity rather than rote learning.</p>
+    </details>
+    <details id="features">
+      <summary>⭐ Key Features</summary>
+      <ul>
+        <li><b>Concept-first approach:</b> Explanations build intuition before diving into math.</li>
+        <li><b>Progressive exercises:</b> Problems range from basic conceptual to challenging IIT-level.</li>
+        <li><b>Balanced design:</b> Useful for school exams, JEE Main, Advanced, and NEET.</li>
+        <li><b>Problem-solving skills:</b> Encourages step-by-step reasoning rather than shortcuts.</li>
+        <li><b>Accessible language:</b> Simple English ensures wide reach among students across India.</li>
+      </ul>
+      <p>This book has inspired generations of IITians and is recommended alongside NCERT for complete preparation.</p>
+    </details>
+    <details id="resources">
+      <summary>🎓 Free Resources</summary>
+      <p>Though HCV itself is a paid textbook, several supplementary resources are freely available to help students master the problems:</p>
+      <div class="links">
+        <a target="_blank" href="https://www.physicsgalaxy.com/download_hc_verma_solutions.html">HC Verma Solutions PDFs</a>
+        <a target="_blank" href="https://www.youtube.com/playlist?list=PLbMVogVj5nJRB4y-9nWQ5Yl-U7v1nZJdD">YouTube Explanations (Physics Galaxy)</a>
+        <a target="_blank" href="https://www.careerstoday.com/hc-verma-solutions">Chapter-wise Solutions (CareersToday)</a>
+      </div>
+      <p>These resources should be used for guidance and verification. Attempt each problem on your own before consulting solutions!</p>
+    </details>
+  </section>
+
+  <!-- Other Books -->
+  <section class="books" id="books">
+    <h3>📚 Other JEE Physics Books</h3>
+    <div class="cards">
+      <div class="card">
+        <img src="dc_ pandey1.jpg" alt="DC Pandey Physics"
+        width="500">
+        <h4>DC Pandey – Understanding Physics</h4>
+        <p class="mini">Topic-wise series covering Mechanics, Waves, Optics, Electricity, and Modern Physics.</p>
+        <a target="_blank" href="https://www.amazon.in/dp/9313192859">Buy on Amazon</a>
+      </div>
+      <div class="card">
+        <img src="ie_irodov.webp" alt="I.E. Irodov Problems">
+        <h4>I.E. Irodov – Problems in General Physics</h4>
+        <p class="mini">The toughest problem book. Best for JEE Advanced aspirants aiming for top ranks.</p>
+        <a target="_blank" href="https://www.amazon.in/dp/9388127310">Buy on Amazon</a>
+      </div>
+      <div class="card">
+        <img src="Fundamentals_of_Physics_cover.png" alt="Resnick Halliday Physics">
+        <h4>Resnick, Halliday & Walker – Fundamentals of Physics</h4>
+        <p class="mini">An international reference providing deep insights into theory and applications.</p>
+        <a target="_blank" href="https://www.amazon.in/dp/812655256X">Buy on Amazon</a>
+      </div>
+      <div class="card">
+        <img src="9789355737816_tn.jpg" alt="BM Sharma Cengage Physics">
+        <h4>B.M. Sharma – Cengage Physics</h4>
+        <p class="mini">Detailed problems with solutions. Excellent practice set after HCV.</p>
+        <a target="_blank" href="https://www.amazon.in/dp/9353502440">Buy on Amazon</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Syllabus -->
+  <section class="section" id="syllabus">
+    <h3>📖 JEE Physics Syllabus (XI & XII)</h3>
+    <div class="two">
+      <details><summary>Class XI</summary>
+        <ul>
+          <li>Physical world, Units & Measurements</li><li>Kinematics, Laws of Motion</li>
+          <li>Work, Energy, Power</li><li>Rotational Motion, Gravitation</li>
+          <li>Properties of Solids and Fluids</li><li>Thermal Physics, Thermodynamics</li>
+          <li>Kinetic Theory of Gases</li><li>Oscillations and Waves</li>
+        </ul>
+      </details>
+      <details><summary>Class XII</summary>
+        <ul>
+          <li>Electrostatics, Current Electricity</li><li>Magnetism, EMI, AC Circuits</li>
+          <li>EM Waves</li><li>Ray and Wave Optics</li>
+          <li>Dual Nature, Atoms, Nuclei</li><li>Semiconductors, Communication Systems</li>
+        </ul>
+      </details>
+    </div>
+  </section>
+
+  <!-- FAQs -->
+  <section class="section" id="faqs">
+    <h3>❓ Frequently Asked Questions</h3>
+    <details><summary>Is HCV enough for JEE Main?</summary><p>Yes, it covers all key topics conceptually and provides a solid problem base. For Advanced, complement with DC Pandey or Irodov.</p></details>
+    <details><summary>Do I need to solve every question?</summary><p>It is strongly recommended to attempt all exercises. The problems are designed to strengthen core skills.</p></details>
+    <details><summary>Should I buy both volumes?</summary><p>Yes. Vol 1 aligns with Class XI, and Vol 2 with Class XII. Both are required for complete preparation.</p></details>
+  </section>
+
+  <!-- Footer -->
+  <footer class="foot">
+    <div class="cols">
+      <section>
+        <h4>About H.C. Verma</h4>
+        <p>Prof. Harish Chandra Verma, IIT Kanpur, has revolutionized physics learning in India through his book “Concepts of Physics”. He is respected for making physics enjoyable and accessible to lakhs of students.</p>
+      </section>
+      <section>
+        <h4>Quick Links</h4>
+        <a href="#overview">Overview</a><br><a href="#features">Features</a><br><a href="#resources">Resources</a><br><a href="#syllabus">Syllabus</a><br><a href="#faqs">FAQs</a>
+      </section>
+      <section>
+        <h4>Publisher</h4>
+        <p>Bharati Bhawan, New Delhi</p><p>Available in bookstores & online retailers</p>
+      </section>
+      <section>
+        <h4>Customer Support</h4>
+        <p>Email: support@bharatibhawan.in</p><p>Phone: +91-XXXXXXXXXX</p>
+      </section>
+    </div>
+    <div class="copy">© 2025 HCV Physics Resource • Educational Purposes Only</div>
+  </footer>
+</main>
+
+<script>
+const btn=document.getElementById('modeBtn');
+const saved=localStorage.getItem('theme');
+if(saved==='dark'){document.body.classList.add('dark');btn.textContent='☀️ Light'}
+btn.onclick=()=>{document.body.classList.toggle('dark');const d=document.body.classList.contains('dark');btn.textContent=d?'☀️ Light':'🌙 Dark';localStorage.setItem('theme',d?'dark':'light')}
+</script>
+</body>
+</html>
